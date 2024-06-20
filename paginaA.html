@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina A</title>
+    <link rel="stylesheet" href="styleA.css">
+</head>
+<body>
+    <div class="cabeçalho">
+
+        <h1>Pagina A</h1>
+
+        <button id="paginaB" onclick="paginaB()">Pagina B</button>
+    </div>
+
+    <div class="adicionarItens">
+
+        <input type="text" id="nome" placeholder="Nome">
+        
+        <textarea id="ingredientes"  rows="10" cols="50"></textarea>
+
+        <textarea id="preparo" rows=" 10" cols="50"></textarea>
+
+        <input type="number" id="tempo" placeholder="Tempo de Preparo">
+
+        <select id="categoria" required>
+            <option value="" disabled selected>Selecione o tipo do Prato</option>
+            <option value="Prato Principal">Prato Principal</option>
+            <option value="Entrada">Entrada</option>
+            <option value="Sobremesa">Sobremesa</option>
+        </select>
+
+        <button onclick="enviar()">Confirmar</button>
+    </div>
+        
+    <div class="tabela">
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Ingredientes</th>
+                    <th>Preparo</th>
+                    <th>Tempo</th>
+                    <th>Categoria</th>
+                </tr>
+            </thead id="produtos">
+
+            <tbody id="tabelaReceitas">
+
+            </tbody>
+        </table>
+    </div>
+
+    <script src="scriptA.js"></script>
+    
+</body>
+</html>

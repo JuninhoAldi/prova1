@@ -1,0 +1,50 @@
+body{
+    font-family: sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.cabeçalho{
+    background-color: #ff5722;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabeçalho button{
+    background-color: #white;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.cabeçalho button:hover{
+    background-color: #ffab91;
+}
+
+.adicionarItens {
+    background-color: #fafafa;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 650px;
+}
+
+.adicionarItens input,
+.adicionarItens textarea,
+.adicionarItens select {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.adicionarItens
