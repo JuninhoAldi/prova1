@@ -15,7 +15,7 @@ body{
 }
 
 .cabeçalho button{
-    background-color: #white;
+    background-color: white;
     border: none;
     color: black;
     padding: 10px 20px;
@@ -47,4 +47,34 @@ body{
     border-radius: 5px;
 }
 
-.adicionarItens
+.adicionarItens button{
+    width: 95%;
+    padding: 15px;
+    background-color: #ff5722;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.adicionarItens button:hover{
+    background-color: #e64a19;
+}
+
+.tabela{
+    width: 90%px;
+    margin: 20px auto;
+}
+
+.tabela table{
+    width: 100%px;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #ffffff;
+}
+
+.tabela th, .tabela td{
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
