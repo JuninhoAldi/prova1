@@ -1,11 +1,11 @@
-body{
+body {
     font-family: sans-serif;
     background-color: #ffffff;
     margin: 0;
     padding: 0;
 }
 
-.cabeçalho{
+.cabeçalho {
     background-color: #ff5722;
     color: white;
     padding: 15px 20px;
@@ -14,7 +14,7 @@ body{
     align-items: center;
 }
 
-.cabeçalho button{
+.cabeçalho button {
     background-color: white;
     border: none;
     color: black;
@@ -24,40 +24,41 @@ body{
     font-size: 16px;
 }
 
-.cabeçalho button:hover{
+.cabeçalho button:hover {
     background-color: #ffab91;
 }
 
-.adicionarItens {
+.receitas-container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.receita {
     background-color: #fafafa;
     padding: 20px;
-    margin: 20px auto;
+    margin: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    max-width: 650px;
+    width: 300px;
 }
 
-.adicionarItens input,
-.adicionarItens textarea,
-.adicionarItens select {
-    width: 95%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+.receita h2 {
+    margin-top: 0;
 }
 
-.adicionarItens button{
-    width: 95%;
-    padding: 15px;
+.receita button {
     background-color: #ff5722;
     border: none;
     color: white;
+    padding: 10px;
     cursor: pointer;
     border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 5px;
 }
 
-.adicionarItens button:hover{
+.receita button:hover {
     background-color: #e64a19;
 }
-
